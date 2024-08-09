@@ -1,0 +1,782 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  font-family: "League Spartan", sans-serif;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+header {
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  background-color: #111111;
+  margin: 0 auto;
+  margin-bottom: 376px;
+}
+
+.top_image {
+  background-image: url(../img/header_img.png);
+  width: 375px;
+  height: 210px;
+  background-position: -82px -190px;
+  background-size: 150%;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.page_logo {
+  width: 82.4px;
+  left: 122px;
+  gap: 0px;
+  opacity: 0px;
+  margin: 0 auto;
+  margin-bottom: 36px;
+}
+
+.header_text {
+  margin-top: 12px;
+  margin-bottom: 170px;
+}
+
+.header_text h1 {
+  color: white;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 40px;
+  letter-spacing: -0.4000000059604645px;
+  width: 250px;
+  margin: 0 auto;
+  margin-bottom: 21px;
+}
+
+.header_text p {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 327px;
+  height: 78px;
+  margin: 0 auto;
+  margin-bottom: 53px;
+}
+
+.header_text a {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 25px 55px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 2.5px;
+}
+
+.header_text a:hover {
+  background-color: white;
+  color: #111111;
+}
+
+.container {
+  width: 375px;
+  margin: 0 auto;
+}
+
+.card1 img {
+  position: absolute;
+  top: -452px;
+  left: 21px;
+}
+
+.cards {
+  position: relative;
+}
+
+.card2 img {
+  position: absolute;
+}
+
+.cards {
+  text-align: center;
+}
+
+.cards h1 {
+  width: 250px;
+  margin: 0 auto;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -0.4000000059604645px;
+  margin-bottom: 13px;
+}
+
+.cards p {
+  width: 327px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 0 auto;
+  margin-bottom: 101px;
+}
+
+.card {
+  padding: 0 12px;
+}
+
+.card2 img {
+margin: auto;
+margin-bottom: 48px;
+}
+
+.food_cards {
+  background-color: #111111;
+  width: 375px;
+  height: 1720px;
+  padding: 115px 24px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.food_cards h1 {
+  color: white;
+  width: 327px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -0.4000000059604645px;
+  margin: 0px auto;
+  margin-bottom: 13px;
+}
+
+.food_cards h2 {
+  color: white;
+  width: 327px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.25px;
+  margin: 0px auto;
+  margin-bottom: 6px;
+}
+
+
+.food_cards p {
+  color: white;
+  width: 327px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 0px auto;
+  margin-bottom: 54px;
+}
+
+.food_cards img {
+  margin-bottom: 36px;
+}
+
+.food_cards hr {
+  margin-bottom: 24px;
+  opacity: 14.94%;
+}
+
+.family_gathering {
+  text-align: center;
+  margin-bottom: 124px;
+}
+
+.family_gathering img {
+  margin: 0 auto;
+  margin-bottom: 49px;
+}
+
+.family_gathering h2 {
+  color: #4C4C4C;
+  width: 326px;
+  height: 28px;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 2.5px;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+
+.family_gathering span h2 {
+  color: #4C4C4C;
+  opacity: 50%;
+}
+
+.family_gathering h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -0.4000000059604645px;
+  margin-bottom: 13px;
+}
+
+.family_gathering p {
+  width: 327px;
+  height: 104px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 0 auto;
+  margin-bottom: 27px;
+}
+
+.family_gathering a {
+  color: white;
+  background-color: #111111;
+  width: 136px;
+  height: 16px;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 2.5px;
+  text-decoration: none;
+  padding: 25px 55px;
+}
+
+.family_gathering a:hover {
+  background-color: white;
+  color: #111111;
+  border: 1px solid #111111;
+}
+
+.reservation {
+  background-image: url(../img/reservation_background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 375px;
+  height: 328px;
+  text-align: center;
+  padding: 0px 24px;
+  padding-top: 84px;
+}
+
+.reservation h1 {
+  color: white;
+  width: 327px;
+  height: 80px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -0.4000000059604645px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.reservation a {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  width: 136px;
+  height: 16px;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 2.5px;
+  text-decoration: none;
+  padding: 25px 55px;
+}
+
+.reservation a:hover {
+  background-color: white;
+  color: #111111;
+}
+
+.footer_section {
+  background-color: #111111;
+  width: 375px;
+  height: 440px;
+  text-align: center;
+  padding: 0px 24px;
+  padding-top: 80px;
+  margin: 0 auto;
+}
+
+footer img {
+  margin: 0 auto;
+  margin-bottom: 42px;
+}
+
+footer h3 {
+  margin-bottom: 32px;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 2px;
+}
+
+
+@media (width < 1110px) {
+
+  .card2 img {
+      width: 573px;
+      object-fit: cover;
+      height: 360px;
+      position: absolute;
+      top: 280px;
+      left: 93px;
+  }
+  
+  
+  .card2 {
+      margin-top: 550px;
+  }
+}
+
+
+@media (width < 767px) {
+  .card2 {
+      margin-top: 550px;
+  }
+  
+  .card2 img {
+      position: absolute;
+      top: 280px;
+      left: 23px;
+  }
+}
+
+
+@media (width > 767px) {
+  .container {
+      width: 768px;
+}
+
+header {
+  width: 768px;
+}
+
+.top_image {
+  background-image: url(../public/img/header_img.png);
+  width: 768px;
+  height: 440px;
+  background-position: -170px -328px;
+  background-size: 150%;
+  background-repeat: no-repeat
+}
+
+.header_text h1 {
+  width: 389px;
+  height: 128px;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 64px;
+  letter-spacing: -0.6000000238418579px;
+}
+
+.header_text p {
+  width: 573px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.cards h1 {
+  width: 357px;
+  height: 96px; 
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+}
+
+.cards p {
+  width: 457px;
+  height: 90px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.card1 img {
+  position: absolute;
+  top: -452px;
+  left: 95px;
+  width: 573px;
+  height: 360px;
+  object-fit: cover;
+} 
+
+.card2 img {
+  width: 573px;
+  object-fit: cover;
+  height: 360px;
+}
+
+.food_cards {
+  width: 768px;
+  height: 858px;
+  margin: 0 auto;
+  padding: 96px;
+  margin-bottom: 120px;
+}
+
+.food_cards h1 {
+  width: 445px;
+  height: 96px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+}
+
+.food_cards p {
+  width: 445px;
+  height: 90px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.food_cards img {
+  width: 128px;
+  height: 96px;
+}
+
+.food_card {
+  display: flex;
+  width: auto;
+  text-align: start;
+  gap: 62px;
+}
+
+.food_card h2 {
+  margin: 0px;
+  width: 383px;
+}
+
+.food_card p {
+  width: 383px;
+}
+
+.food_Card_text {
+  width: auto;
+  height: 100px;
+}
+
+.event_item {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.family_gathering img {
+width: 573px;
+height: 360px;
+object-fit: cover;
+}
+
+.family_gathering h1 {
+  width: 457px;
+  height: 48px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.family_gathering p {
+  width: 457px;
+  height: 90px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 60px;
+}
+
+.reservation {
+  width: 768px;
+  background-size: 100%;
+  background-size: cover;
+}
+
+.reservation h1 {
+  width: 657px;
+  height: 50px;
+  font-size: 50px;
+}
+
+.footer_section {
+  width: 768px;
+  height: 328px;
+  display: flex;
+  align-items: flex-start;
+}
+
+footer img {
+  margin: 0;
+  padding-right: 130px;
+}
+
+.footer_texts h3 {
+  text-align: left;
+}
+
+.special_text {
+  color: #4C4C4C;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 2.5px;
+  width: 223px;
+  height: 28px;
+
+opacity: 50%;
+
+}
+
+}
+
+
+
+@media (width > 1110px) {
+
+header {
+  width: 1440px;
+
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+footer {
+  width: 1440px;
+  background-color: #111111;
+  margin: 0 auto;
+}
+
+.reservation h1 {
+  margin: 0;
+}
+
+.family_gathering {
+  display: flex;
+}
+
+.family_gathering img {
+  width: 540px;
+  height: 600px;
+}
+
+.card {
+  display: flex;
+}
+
+.footer_texts {
+  display: flex;
+  gap: 40px;
+}
+
+.event_item {
+  display: flex;
+}
+
+header {
+  width: 1440px;
+  height: 820px;
+  margin-bottom: 239px;
+  position: relative;
+}
+
+.header_text {
+  width: 507px;
+}
+
+.top_image {
+  background-image: url(/img/header_img.png);
+  width: 750px;
+  height: 940px;
+  background-position: -170px -328px;
+  background-size: 230%;
+  margin: 0;
+  right: 0px;
+  top: 0px;
+  position: absolute;
+}
+
+.card2 img {
+  position: absolute;
+  right: 100px;
+  top: 460px;
+  width: 540px;
+  height: 720px;
+}
+
+.card1 {
+  display: flex;
+  justify-content: right;
+  margin-bottom: 350px;
+}
+
+.card1 img {
+  position: absolute;
+  top: -302px;
+  left: 165px;
+  width: 540px;
+  height: 720px;
+}
+
+.card2 {
+  margin-top: 400px;
+  margin-bottom: 100px;
+}
+
+.footer_section {
+  width: auto;
+  padding: 78px 165px 76px 165px;
+  display: flex;
+  gap: 192px;
+}
+
+.footer_texts {
+  height: auto;
+}
+
+.footer_section {
+  width: auto;
+  padding: 78px 165px 76px 165px;
+  display: flex;
+  gap: 192px;
+  height: auto;
+  margin: 0%;
+}
+
+.footer_section h3 {
+  margin: 0;
+}
+
+.footer_texts {
+  gap: 124px;
+}
+
+.reservation {
+  width: 1440px;
+  background-size: cover;
+  display: flex;
+  padding: 99px 165px 94px 165px;
+  justify-content: space-between;
+  height: auto;
+  align-items: center;
+}
+
+.reservation a {
+  width: 265px;
+  height: 64px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.family_gathering {
+  width: 1110px;
+  margin: auto;
+  margin-bottom: 160px;
+}
+
+.event_texts {
+  width: 570px;
+  padding-left: 125px;
+  text-align: left;
+}
+
+.event_texts p {
+  margin-bottom: 80px;
+}
+
+.family_gathering img {
+  margin: 0;
+}
+
+.food_cards {
+  width: 1440px;
+  display: flex;
+  gap: 125px;
+  padding: 255px 165px 120px 165px;
+}
+
+.food_top {
+  text-align: left;
+}
+
+.header_text {
+  text-align: left;
+  align-items: start;
+}
+
+.header_text h1 {
+  margin: 0;
+}
+
+header {
+  padding-left: 165px;
+  padding-top: 65px;
+}
+
+.page_logo {
+  margin: 0px;
+  margin-bottom: 153px;
+}
+
+.cards {
+  padding: 0 165px;
+}
+
+.card_texts {
+  text-align: left;
+}
+
+.card_texts h1 {
+  margin: 0;
+  margin-bottom: 27px;
+}
+
+.header_text h1 {
+  width: 508px;
+  height: 160px;
+  font-size: 80px;
+  font-weight: 300;
+  line-height: 80px;
+  letter-spacing: -1px;
+}
+
+.header_text p {
+  width: 445px;
+  height: 90px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+}
